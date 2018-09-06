@@ -20,6 +20,10 @@ This effectively means that mouse button 5 switches you between 'push to talk' a
 - You can change the buttons to any button that AutoHotkey supports - see their [keylist]
 - When in PTT 'mode', by default, the script will leave the mic open for a fraction of a second after releasing the button, as people usually release it just a little early. You can tune or remove this by finding the 'sleep' line in the script and removing it, or changing the number. The number is the number of milliseconds to leave it live.
 
+## License
+
+This script is [MIT-licensed](LICENSE).
+
 [AutoHotkey]: https://github.com/Lexikos/AutoHotkey_L
 [VistaAudio]: https://github.com/ahkscript/vistaaudio
 [keylist]: https://autohotkey.com/docs/KeyList.htm
