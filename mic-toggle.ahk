@@ -39,10 +39,3 @@ VA_SetMasterMute(!WasMuted, "capture")
 PlayEffect()
 Muted := !WasMuted
 return
-
-if (Muted) {
-	ComObjCreate("SAPI.SpVoice").Speak("Push To Talk")
-} else {
-	ComObjCreate("SAPI.SpVoice").Speak("Push To Mute")
-}
-return
