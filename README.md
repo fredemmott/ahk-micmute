@@ -1,7 +1,7 @@
 # ahk-micmute
 AutoHotkey script for muting and unmuting microphone with mouse buttons.
 
-If you have compatibility problems (for example, Call Of Duty: Black Ops 4 will not start if anything is running with autohotkey), [MicMuteToggle](https://github.com/fredemmott/MicMuteToggle) may be a workable alternative.
+This project is no longer maintained, in favor of [MicMuteToggle](https://github.com/fredemmott/MicMuteToggle). While ahk-micmute is more flexible, it is incompatible with some programs; for example, Black Ops 4 will immediately exit if AutoHotKey is running.
 
 ## Installation
 
